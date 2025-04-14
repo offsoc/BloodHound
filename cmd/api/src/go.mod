@@ -17,6 +17,7 @@
 module github.com/specterops/bloodhound/src
 
 go 1.21
+toolchain go1.24.1
 
 require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
@@ -28,10 +29,10 @@ require (
 	github.com/go-chi/chi/v5 v5.0.8
 	github.com/gobeam/stringy v0.0.6
 	github.com/gofrs/uuid v4.4.0+incompatible
-	github.com/golang-jwt/jwt/v4 v4.5.0
+	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
-	github.com/gorilla/schema v1.2.0
+	github.com/gorilla/schema v1.4.1
 	github.com/jackc/pgx/v5 v5.5.4
 	github.com/jedib0t/go-pretty/v6 v6.4.6
 	github.com/mattermost/xml-roundtrip-validator v0.1.0
@@ -47,8 +48,8 @@ require (
 	github.com/unrolled/secure v1.13.0
 	github.com/zenazn/goji v1.0.1
 	go.uber.org/mock v0.2.0
-	golang.org/x/crypto v0.24.0
-	golang.org/x/net v0.26.0
+	golang.org/x/crypto v0.35.0
+	golang.org/x/net v0.36.0
 	gorm.io/driver/postgres v1.3.8
 	gorm.io/gorm v1.23.8
 )
@@ -89,9 +90,8 @@ require (
 	github.com/prometheus/common v0.44.0 // indirect
 	github.com/prometheus/procfs v0.11.0 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
